@@ -119,8 +119,14 @@ def fetch_and_store(date_str: str, market: str, is_today: bool = True) -> None:
     if len(tickers) == 1:
         raw   = yf.download(tickers[0], start=start_dt.strftime("%Y-%m-%d"),
                             end=end_dt.strftime("%Y-%m-%d"), auto_adjust=True, progress=False)
-        close = raw["Close"].to_frame(name=tickers[0])
-        open_ = raw["Open"].to_frame(name=tickers[0])
+        # yfinance 버전에 따라 단일 티커도 MultiIndex 컬럼(DataFrame)으로 오거나
+        # 단일 레벨(Series)로 온다. Series일 때만 티커명 컬럼으로 승격한다.
+        close = raw["Close"]
+        open_ = raw["Open"]
+        if isinstance(close, pd.Series):
+            close = close.to_frame(name=tickers[0])
+        if isinstance(open_, pd.Series):
+            open_ = open_.to_frame(name=tickers[0])
     else:
         raw   = yf.download(tickers, start=start_dt.strftime("%Y-%m-%d"),
                             end=end_dt.strftime("%Y-%m-%d"), auto_adjust=True, progress=False)
