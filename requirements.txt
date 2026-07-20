@@ -1,0 +1,6 @@
+telethon
+yfinance
+requests
+pytz
+pandas
+pytest
