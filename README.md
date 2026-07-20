@@ -29,15 +29,29 @@ cp .env.example .env
 
 ## 설정 파일 (config/*.json)
 
+**권장 — 대화형 세팅**: [Claude Code](https://claude.com/claude-code) 등 에이전트에서
+`market-digest-setup` 스킬을 실행하면 키·유니버스·채널·텔레그램 로그인을 대화로
+안내하고 스모크 테스트까지 해준다.
+
+**수동 — 기본값 복사 후 편집**:
 ```bash
-cp config/universe.sample.json config/universe.json
-cp config/keywords.sample.json config/keywords.json
-cp config/channels.sample.json config/channels.json
+cp config/universe.default.json config/universe.json
+cp config/keywords.default.json config/keywords.json
+cp config/channels.default.json config/channels.json
 ```
 
 - `config/universe.json`: 추적할 종목 목록(국가별 섹터 → 종목 `ticker`/`nameKr`/`nameEn`).
-- `config/keywords.json`: 종목별 뉴스 매칭용 키워드/별칭(쉼표 구분).
-- `config/channels.json`: 크롤링할 텔레그램 채널 username 목록.
+  기본값은 미/유/일/한 **~90개 글로벌 대형주**. 유럽·일본·한국 티커는 거래소 접미사
+  (`.PA`/`.T`/`.KS` 등, yfinance 호환)를 쓴다.
+- `config/keywords.json`: 종목별 뉴스 매칭용 키워드/별칭(쉼표 구분). 없어도 유니버스
+  종목명으로 태깅되며, 별칭은 재현율 보강용.
+- `config/channels.json`: 크롤링할 텔레그램 채널 username 목록. 기본값은 **공개 증권
+  채널 8개**(예시 — 취향껏 교체·추가).
+
+> **참고**: 기본값(default)만으로도 바로 쓸만한 다이제스트가 나온다. 다만 ⑴ `.env` 키와
+> 텔레그램 로그인은 **필수**이고, ⑵ 채널은 **공개 예시**이니 원하는 채널로 바꿔도 되며,
+> ⑶ 커버리지를 넓히려면 유니버스·채널을 확장하면 된다. `config/*.json`(실제 파일)은
+> gitignore라 개인 커스터마이즈가 공개되지 않는다.
 
 ## 최초 1회: 텔레그램 로그인
 

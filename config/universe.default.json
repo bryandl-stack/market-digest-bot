@@ -1,0 +1,163 @@
+{
+  "us": [
+    {"id": "us_megatech", "name": "빅테크", "stocks": [
+      {"ticker": "AAPL", "nameKr": "애플", "nameEn": "Apple"},
+      {"ticker": "MSFT", "nameKr": "마이크로소프트", "nameEn": "Microsoft"},
+      {"ticker": "GOOGL", "nameKr": "알파벳", "nameEn": "Alphabet"},
+      {"ticker": "AMZN", "nameKr": "아마존", "nameEn": "Amazon"},
+      {"ticker": "META", "nameKr": "메타", "nameEn": "Meta Platforms"}
+    ]},
+    {"id": "us_semi", "name": "반도체", "stocks": [
+      {"ticker": "NVDA", "nameKr": "엔비디아", "nameEn": "NVIDIA"},
+      {"ticker": "AMD", "nameKr": "AMD", "nameEn": "AMD"},
+      {"ticker": "AVGO", "nameKr": "브로드컴", "nameEn": "Broadcom"},
+      {"ticker": "TSM", "nameKr": "TSMC", "nameEn": "Taiwan Semiconductor"},
+      {"ticker": "AMAT", "nameKr": "어플라이드머티리얼즈", "nameEn": "Applied Materials"},
+      {"ticker": "MU", "nameKr": "마이크론", "nameEn": "Micron"},
+      {"ticker": "QCOM", "nameKr": "퀄컴", "nameEn": "Qualcomm"},
+      {"ticker": "INTC", "nameKr": "인텔", "nameEn": "Intel"}
+    ]},
+    {"id": "us_software", "name": "소프트웨어", "stocks": [
+      {"ticker": "ORCL", "nameKr": "오라클", "nameEn": "Oracle"},
+      {"ticker": "CRM", "nameKr": "세일즈포스", "nameEn": "Salesforce"},
+      {"ticker": "ADBE", "nameKr": "어도비", "nameEn": "Adobe"},
+      {"ticker": "NOW", "nameKr": "서비스나우", "nameEn": "ServiceNow"},
+      {"ticker": "PLTR", "nameKr": "팔란티어", "nameEn": "Palantir"}
+    ]},
+    {"id": "us_finance", "name": "금융", "stocks": [
+      {"ticker": "JPM", "nameKr": "JP모건", "nameEn": "JPMorgan"},
+      {"ticker": "BAC", "nameKr": "뱅크오브아메리카", "nameEn": "Bank of America"},
+      {"ticker": "V", "nameKr": "비자", "nameEn": "Visa"},
+      {"ticker": "MA", "nameKr": "마스터카드", "nameEn": "Mastercard"},
+      {"ticker": "GS", "nameKr": "골드만삭스", "nameEn": "Goldman Sachs"}
+    ]},
+    {"id": "us_health", "name": "헬스케어", "stocks": [
+      {"ticker": "LLY", "nameKr": "일라이릴리", "nameEn": "Eli Lilly"},
+      {"ticker": "UNH", "nameKr": "유나이티드헬스", "nameEn": "UnitedHealth"},
+      {"ticker": "JNJ", "nameKr": "존슨앤드존슨", "nameEn": "Johnson & Johnson"},
+      {"ticker": "ABBV", "nameKr": "애브비", "nameEn": "AbbVie"},
+      {"ticker": "MRK", "nameKr": "머크", "nameEn": "Merck"}
+    ]},
+    {"id": "us_consumer", "name": "소비재", "stocks": [
+      {"ticker": "TSLA", "nameKr": "테슬라", "nameEn": "Tesla"},
+      {"ticker": "COST", "nameKr": "코스트코", "nameEn": "Costco"},
+      {"ticker": "MCD", "nameKr": "맥도날드", "nameEn": "McDonald's"},
+      {"ticker": "NKE", "nameKr": "나이키", "nameEn": "Nike"},
+      {"ticker": "SBUX", "nameKr": "스타벅스", "nameEn": "Starbucks"}
+    ]},
+    {"id": "us_comm", "name": "미디어", "stocks": [
+      {"ticker": "NFLX", "nameKr": "넷플릭스", "nameEn": "Netflix"},
+      {"ticker": "DIS", "nameKr": "디즈니", "nameEn": "Disney"}
+    ]},
+    {"id": "us_energy", "name": "에너지", "stocks": [
+      {"ticker": "XOM", "nameKr": "엑슨모빌", "nameEn": "ExxonMobil"},
+      {"ticker": "CVX", "nameKr": "셰브런", "nameEn": "Chevron"}
+    ]}
+  ],
+  "eu": [
+    {"id": "eu_tech", "name": "테크", "stocks": [
+      {"ticker": "SAP", "nameKr": "SAP", "nameEn": "SAP"},
+      {"ticker": "ASML", "nameKr": "ASML", "nameEn": "ASML"},
+      {"ticker": "STM", "nameKr": "ST마이크로", "nameEn": "STMicroelectronics"}
+    ]},
+    {"id": "eu_health", "name": "헬스케어", "stocks": [
+      {"ticker": "NVO", "nameKr": "노보노디스크", "nameEn": "Novo Nordisk"},
+      {"ticker": "NVS", "nameKr": "노바티스", "nameEn": "Novartis"},
+      {"ticker": "AZN", "nameKr": "아스트라제네카", "nameEn": "AstraZeneca"}
+    ]},
+    {"id": "eu_consumer", "name": "소비재", "stocks": [
+      {"ticker": "MC.PA", "nameKr": "LVMH", "nameEn": "LVMH"},
+      {"ticker": "OR.PA", "nameKr": "로레알", "nameEn": "L'Oreal"},
+      {"ticker": "NESN.SW", "nameKr": "네슬레", "nameEn": "Nestle"}
+    ]},
+    {"id": "eu_industrial", "name": "산업재", "stocks": [
+      {"ticker": "SIE.DE", "nameKr": "지멘스", "nameEn": "Siemens"},
+      {"ticker": "AIR.PA", "nameKr": "에어버스", "nameEn": "Airbus"},
+      {"ticker": "ALV.DE", "nameKr": "알리안츠", "nameEn": "Allianz"}
+    ]},
+    {"id": "eu_finance", "name": "금융", "stocks": [
+      {"ticker": "DB", "nameKr": "도이체방크", "nameEn": "Deutsche Bank"}
+    ]},
+    {"id": "eu_telecom", "name": "통신", "stocks": [
+      {"ticker": "DTE.DE", "nameKr": "도이치텔레콤", "nameEn": "Deutsche Telekom"}
+    ]},
+    {"id": "eu_energy", "name": "에너지", "stocks": [
+      {"ticker": "SHEL", "nameKr": "쉘", "nameEn": "Shell"},
+      {"ticker": "TTE", "nameKr": "토탈에너지스", "nameEn": "TotalEnergies"}
+    ]},
+    {"id": "eu_chem", "name": "화학", "stocks": [
+      {"ticker": "BAYN.DE", "nameKr": "바이엘", "nameEn": "Bayer"}
+    ]},
+    {"id": "eu_internet", "name": "인터넷", "stocks": [
+      {"ticker": "PRX.AS", "nameKr": "프로수스", "nameEn": "Prosus"}
+    ]},
+    {"id": "eu_utility", "name": "유틸리티", "stocks": [
+      {"ticker": "EOAN.DE", "nameKr": "E.ON", "nameEn": "E.ON"}
+    ]}
+  ],
+  "jp": [
+    {"id": "jp_auto", "name": "자동차", "stocks": [
+      {"ticker": "7203.T", "nameKr": "도요타", "nameEn": "Toyota"},
+      {"ticker": "7201.T", "nameKr": "닛산", "nameEn": "Nissan"}
+    ]},
+    {"id": "jp_semi", "name": "반도체", "stocks": [
+      {"ticker": "8035.T", "nameKr": "도쿄일렉트론", "nameEn": "Tokyo Electron"},
+      {"ticker": "6857.T", "nameKr": "어드반테스트", "nameEn": "Advantest"},
+      {"ticker": "4063.T", "nameKr": "신에쓰화학", "nameEn": "Shin-Etsu Chemical"},
+      {"ticker": "6146.T", "nameKr": "디스코", "nameEn": "Disco"}
+    ]},
+    {"id": "jp_tech", "name": "전자·기술", "stocks": [
+      {"ticker": "6758.T", "nameKr": "소니", "nameEn": "Sony"},
+      {"ticker": "6861.T", "nameKr": "키엔스", "nameEn": "Keyence"},
+      {"ticker": "6501.T", "nameKr": "히타치", "nameEn": "Hitachi"}
+    ]},
+    {"id": "jp_internet", "name": "인터넷·투자", "stocks": [
+      {"ticker": "9984.T", "nameKr": "소프트뱅크그룹", "nameEn": "SoftBank Group"},
+      {"ticker": "6098.T", "nameKr": "리크루트", "nameEn": "Recruit"}
+    ]},
+    {"id": "jp_consumer", "name": "소비재", "stocks": [
+      {"ticker": "9983.T", "nameKr": "패스트리테일링", "nameEn": "Fast Retailing"},
+      {"ticker": "7974.T", "nameKr": "닌텐도", "nameEn": "Nintendo"}
+    ]},
+    {"id": "jp_finance", "name": "금융", "stocks": [
+      {"ticker": "8306.T", "nameKr": "미쓰비시UFJ", "nameEn": "Mitsubishi UFJ"}
+    ]},
+    {"id": "jp_telecom", "name": "통신", "stocks": [
+      {"ticker": "9434.T", "nameKr": "소프트뱅크", "nameEn": "SoftBank Corp"}
+    ]}
+  ],
+  "kr": [
+    {"id": "kr_semi", "name": "반도체", "stocks": [
+      {"ticker": "005930.KS", "nameKr": "삼성전자", "nameEn": "Samsung Electronics"},
+      {"ticker": "000660.KS", "nameKr": "SK하이닉스", "nameEn": "SK Hynix"}
+    ]},
+    {"id": "kr_battery", "name": "2차전지·화학", "stocks": [
+      {"ticker": "373220.KS", "nameKr": "LG에너지솔루션", "nameEn": "LG Energy Solution"},
+      {"ticker": "006400.KS", "nameKr": "삼성SDI", "nameEn": "Samsung SDI"},
+      {"ticker": "051910.KS", "nameKr": "LG화학", "nameEn": "LG Chem"}
+    ]},
+    {"id": "kr_auto", "name": "자동차", "stocks": [
+      {"ticker": "005380.KS", "nameKr": "현대차", "nameEn": "Hyundai Motor"},
+      {"ticker": "000270.KS", "nameKr": "기아", "nameEn": "Kia"},
+      {"ticker": "012330.KS", "nameKr": "현대모비스", "nameEn": "Hyundai Mobis"}
+    ]},
+    {"id": "kr_internet", "name": "인터넷", "stocks": [
+      {"ticker": "035420.KS", "nameKr": "네이버", "nameEn": "NAVER"},
+      {"ticker": "035720.KS", "nameKr": "카카오", "nameEn": "Kakao"}
+    ]},
+    {"id": "kr_bio", "name": "바이오", "stocks": [
+      {"ticker": "207940.KS", "nameKr": "삼성바이오로직스", "nameEn": "Samsung Biologics"},
+      {"ticker": "068270.KS", "nameKr": "셀트리온", "nameEn": "Celltrion"}
+    ]},
+    {"id": "kr_finance", "name": "금융", "stocks": [
+      {"ticker": "105560.KS", "nameKr": "KB금융", "nameEn": "KB Financial"},
+      {"ticker": "055550.KS", "nameKr": "신한지주", "nameEn": "Shinhan Financial"}
+    ]},
+    {"id": "kr_telecom", "name": "통신", "stocks": [
+      {"ticker": "017670.KS", "nameKr": "SK텔레콤", "nameEn": "SK Telecom"}
+    ]},
+    {"id": "kr_steel", "name": "철강", "stocks": [
+      {"ticker": "005490.KS", "nameKr": "POSCO홀딩스", "nameEn": "POSCO Holdings"}
+    ]}
+  ]
+}
